@@ -5,46 +5,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c396e4b-20cf-4a8e-b08f-71a79986aa79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/addreview.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/advicemovie.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/getallmovies.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/getallreviews.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/getmoviedetails.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/movies.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/reviews.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/users.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/inherits.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/inherits_browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/toidentifier/HISTORY.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/toidentifier/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/toidentifier/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/toidentifier/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/toidentifier/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/ms/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/ms/license.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/ms/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/ms/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/inherits.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/inherits_browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/lru-cache/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/lru-cache/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/lru-cache/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/lru-cache/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/yallist/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/yallist/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/yallist/iterator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/yallist/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/yallist/yallist.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-db/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-types/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/accepts/node_modules/mime-types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/anymatch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/anymatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/anymatch/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/anymatch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/anymatch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/lib/compile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/lib/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/lib/expand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/lib/stringify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/braces/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/fill-range/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/fill-range/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/fill-range/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/fill-range/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/is-number/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/is-number/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/is-number/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/is-number/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/normalize-path/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/normalize-path/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/normalize-path/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/normalize-path/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/picomatch/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/picomatch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/picomatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/picomatch/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/picomatch/lib/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/picomatch/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/picomatch/lib/picomatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/picomatch/lib/scan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/picomatch/lib/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/picomatch/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/to-regex-range/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/to-regex-range/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/to-regex-range/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/node_modules/to-regex-range/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/.github/SECURITY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/.nycrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/implementation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/test/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/function-bind/test/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/.eslintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/.github/FUNDING.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/.nycrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/index.d.ts.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/qs/node_modules/hasown/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/util-deprecate/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/util-deprecate/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/util-deprecate/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/util-deprecate/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/util-deprecate/node.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/util-deprecate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/abbrev/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/abbrev/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/abbrev/abbrev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/touch/node_modules/abbrev/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-db/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-db/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-db/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-db/db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-db/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-db/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-types/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-types/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type-is/node_modules/mime-types/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/movie.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/reviews.js" afterDir="false" />
     </list>
@@ -143,7 +216,7 @@
       <workItem from="1707308908520" duration="17085000" />
       <workItem from="1707329482522" duration="1671000" />
       <workItem from="1707331196782" duration="13000" />
-      <workItem from="1707331334142" duration="14498000" />
+      <workItem from="1707331334142" duration="18382000" />
     </task>
     <servers />
   </component>
