@@ -23,5 +23,3 @@ Projenin API dökümantasyonuna [buradan](https://documenter.getpostman.com/view
 
 ## Projeye Eklenecekler
 - [ ] Redis kullanarak datalar cachelenecek.
-- [ ] Filmler arasında arama yapılacak.
-- [ ] Filmler arasında filtreleme yapılacak.
