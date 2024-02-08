@@ -10,10 +10,10 @@ const addreview = (req, res) => {
         res.json(result);
     });
 
-    //review eklendikten sonra ortalama rating güncelle film için
+
     connection.query('SELECT AVG(rating) as average_rating FROM review WHERE movie_id = ?', [movie_id], (err, result) => {
         if (err) throw err;
-        db.query('UPDATE movie SET average_rating = ? WHERE id = ?', [result[0].average_rating, movie_id], (err, result) => {
+        connection.query('UPDATE movie SET average_rating = ? WHERE id = ?', [result[0].average_rating, movie_id], (err, result) => {
             if (err) throw err;
         });
     });

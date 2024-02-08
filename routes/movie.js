@@ -4,7 +4,7 @@ const {getallmovies,getmoviedetails,advicemovie} = require('../controllers/movie
 const router = express.Router();
 
 router.get('/getallmovies',getallmovies)
-router.get('/getmoviedetails',getmoviedetails)
+router.get('/getmoviedetails/:id',getmoviedetails)
 router.post('/advicemovie',advicemovie)
 
 

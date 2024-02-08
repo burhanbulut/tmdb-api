@@ -2,6 +2,8 @@ const db = require('../config/database.js');
 const nodemailer = require("nodemailer");
 const dotenv = require('dotenv');
 
+
+
 dotenv.config();
 const connection = db();
 const movieAdvice = 'Movie Recommendations'
@@ -20,17 +22,22 @@ const getallmovies = (req, res) => {
 }
 
 const getmoviedetails = (req, res) => {
+    const id = req.params.id;
 
     connection.query(`
-    SELECT review.id, users.name AS username, movie.name AS movie_name, review.review, review.rating
-    FROM review 
-    INNER JOIN movie ON review.movie_id = movie.id
-    INNER JOIN users ON review.user_id = users.id   
-  `, (err,response) =>{
+    SELECT review.id, users.name AS username, movie.name AS movie_name, review.review, review.rating, movie_id
+        FROM review
+        INNER JOIN movie ON review.movie_id = movie.id
+        INNER JOIN users ON review.user_id = users.id
+        WHERE review.movie_id = ?
+  `,[id] ,(err,response) =>{
         if (err) throw err;
         res.json(response)
     } )
 }
+
+
+
 //fonksiyon olcak her seferinde random 4 filmi çekip mail atacak
 let adviceList = []
 const randommovies = connection.query('SELECT * FROM movie  ORDER BY RAND() LIMIT 4' , (err, result) =>{

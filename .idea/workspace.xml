@@ -5,135 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c396e4b-20cf-4a8e-b08f-71a79986aa79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/lib/date.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/lib/expression.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/lib/field_compactor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/lib/field_stringify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/lib/parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/types/common.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/types/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/cron-parser/types/ts3/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/long-timeout/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/long-timeout/example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/long-timeout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/long-timeout/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/amd/luxon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/amd/luxon.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/cjs-browser/luxon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/cjs-browser/luxon.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/es6/luxon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/es6/luxon.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/global/luxon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/global/luxon.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/global/luxon.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/global/luxon.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/node/luxon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/build/node/luxon.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/datetime.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/duration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/errors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/conversions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/diff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/digits.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/english.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/formats.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/formatter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/invalid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/locale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/regexParser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/tokenParser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/impl/zoneUtil.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/info.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/interval.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/luxon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/settings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/zone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/zones/IANAZone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/zones/fixedOffsetZone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/zones/invalidZone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/luxon/src/zones/systemZone.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/node-schedule/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/node-schedule/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/node-schedule/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/node-schedule/UPGRADING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/node-schedule/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/node-schedule/lib/Invocation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/node-schedule/lib/Job.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/node-schedule/lib/schedule.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/node-schedule/lib/utils/dateUtils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/node-schedule/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/.ncurc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/SECURITY.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/addressparser/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/base64/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/message-parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/relaxed-body.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/dkim/sign.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/fetch/cookies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/fetch/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/json-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mail-composer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mailer/mail-message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-funcs/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-funcs/mime-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/last-newline.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/le-unix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/mime-node/le-windows.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/nodemailer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/punycode/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/qp/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/sendmail-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/ses-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/shared/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/data-stream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-connection/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-pool/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-pool/pool-resource.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/smtp-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/stream-transport/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/well-known/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/well-known/services.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/lib/xoauth2/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/nodemailer/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sorted-array-functions/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sorted-array-functions/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sorted-array-functions/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sorted-array-functions/example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sorted-array-functions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sorted-array-functions/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/node_modules/sorted-array-functions/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/reviews.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/movies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware/job.js" beforeDir="false" afterPath="$PROJECT_DIR$/middleware/job.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/toidentifier/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/toidentifier/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/toidentifier/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/toidentifier/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/http-errors/node_modules/toidentifier/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/ms/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/ms/license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/ms/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/node_modules/ms/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/inherits_browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readable-stream/node_modules/inherits/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/lru-cache/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/lru-cache/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/lru-cache/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/lru-cache/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/yallist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/yallist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/yallist/iterator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/yallist/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/semver/node_modules/yallist/yallist.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/movie.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/movie.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/reviews.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,8 +63,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "burhanbulut"
+  }
+}]]></component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="4f3860ad-f223-4e0e-b4fe-61de1f70322a" />
+        <option name="url" value="https://github.com/burhanbulut/tmdb-api.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -216,7 +143,7 @@
       <workItem from="1707308908520" duration="17085000" />
       <workItem from="1707329482522" duration="1671000" />
       <workItem from="1707331196782" duration="13000" />
-      <workItem from="1707331334142" duration="6499000" />
+      <workItem from="1707331334142" duration="14498000" />
     </task>
     <servers />
   </component>

@@ -3,7 +3,7 @@ const {addreview, getallreviews} = require("../controllers/reviews.js");
 
 const router = express.Router();
 
-router.get('/addreview',addreview)
+router.post('/addreview',addreview)
 router.get('/getallreviews',getallreviews)
 
 
