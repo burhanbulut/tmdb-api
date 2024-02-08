@@ -3,6 +3,8 @@
 ## Proje Açıklaması
 Bu proje, TMDB API kullanılarak yapılmıştır. Projede, filmler listelenmiştir. Proje, Node.js kullanılarak yapılmıştır.
 
+
+
 ## Proje Kurulumu
 Proje klonlandıktan sonra, projenin bulunduğu klasörde terminal açılır ve aşağıdaki komutlar sırasıyla çalıştırılır.
 ```npm install```
@@ -13,3 +15,13 @@ Proje çalıştırıldıktan sonra, tarayıcıda ```localhost:3000``` adresine g
 
 ## Projenin Api Dökümantasyonu
 Projenin API dökümantasyonuna [buradan](https://documenter.getpostman.com/view/23399384/2s9Yyy9z42) ulaşabilirsiniz.
+
+## Proje Planlaması
+![image.png](readMe%2Fimage.png)
+
+
+
+## Projeye Eklenecekler
+- [ ] Redis kullanarak datalar cachelenecek.
+- [ ] Filmler arasında arama yapılacak.
+- [ ] Filmler arasında filtreleme yapılacak.
